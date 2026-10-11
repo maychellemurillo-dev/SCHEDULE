@@ -1,0 +1,32 @@
+              <!-- Merged Dates Column across 3 rows -->
+              <td rowspan="3" class="merged-date-cell">
+                September 3<br>
+                September 17<br>
+                October 15<br>
+                November 5<br>
+                November 25<br>
+                December 17
+              </td>
+              <td class="specialist-cell">Ms. Elizabeth Fernando</td>
+            </tr>
+            <tr>
+              <td class="code-cell">PATHFIT 3</td>
+              <td class="subject-cell">Physical Activity Towards Health and Fitness 3 </td>
+              <td class="time-cell">12:00 PM - 01:30 PM</td>
+              <td class="specialist-cell">Mr. Mark Rodel Villarba</td>
+            </tr>
+            <tr>
+              <td class="code-cell">OFAD 203</td>
+              <td class="subject-cell">Transcription and Speedbuilding with Lab</td>
+              <td class="time-cell">03:00 PM - 04:30 PM</td>
+              <td class="specialist-cell">Mr. John Llyod Aben</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
