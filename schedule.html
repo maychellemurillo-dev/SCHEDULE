@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSOAOUMN 2-B Class Schedule</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f9;
+      color: #333333;
+      padding: 10px 5px;
+    }
+
+    /* Outer Container */
+    .schedule-container {
+      width: 100%;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 14px 8px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Centered Header Section */
+    .schedule-header {
+      text-align: center;
+      margin-bottom: 18px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #800000;
+    }
+
+    .schedule-header h1 {
+      font-size: 1.25rem;
+      color: #800000; /* PUP Maroon */
+      font-weight: 700;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+
+    .schedule-header h2 {
+      font-size: 0.88rem;
+      color: #555555;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    /* Cycle Section Headers */
+    .cycle-section {
+      margin-bottom: 24px;
+    }
+
+    .cycle-title {
+      font-size: 1rem;
+      color: #800000;
+      margin-bottom: 8px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    /* Table Outer Wrapper */
+    .table-wrapper {
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid #777777;
+      overflow: hidden;
+    }
+
+    /* Table Base Styling (Mobile First) */
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+      border: 1px solid #777777;
+      padding: 5px 2px;
+      text-align: center;
+      font-size: 0.68rem;
+      word-wrap: break-word;
+    }
+
+    /* Header Row */
+    .schedule-table th {
+      background-color: #800000;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 0.7rem;
+    }
+
+    /* 5-Column Distribution for Mobile */
+    .code-cell {
+      text-align: center;
+      font-weight: bold;
+      color: #800000;
+      width: 16%;
+      background-color: #ffffff;
+    }
+
+    .subject-cell {
+      text-align: center;
+      font-weight: bold;
+      color: #1a1a1a;
+      width: 24%;
+      background-color: #ffffff;
+    }
+
+    .time-cell {
+      color: #222222;
+      width: 22%;
+      background-color: #ffffff;
+    }
+
+    /* Merged Column 4 (Dates) Cream Accent */
+    .merged-date-cell {
+      background-color: #fff8e7;
+      color: #800000;
+      font-weight: bold;
+      vertical-align: middle;
+      line-height: 1.4;
+      width: 16%;
+    }
+
+    .specialist-cell {
+      color: #222222;
+      width: 22%;
+      background-color: #ffffff;
+    }
+
+    /* Alternating Row Color */
+    .schedule-table tbody tr:nth-child(even) td:not(.merged-date-cell) {
+      background-color: #f9fafb;
+    }
+
+    /* Desktop and Computer Overrides (>= 768px) */
+    @media (min-width: 768px) {
+      body {
+        padding: 24px 16px;
+      }
+
+      .schedule-container {
+        max-width: 980px;
+        padding: 28px 24px;
+        border-radius: 12px;
+      }
+
+      .schedule-header {
+        margin-bottom: 28px;
+        padding-bottom: 14px;
+      }
+
+      .schedule-header h1 {
+        font-size: 1.6rem;
+      }
+
+      .schedule-header h2 {
+        font-size: 1.05rem;
+      }
+
+      .cycle-title {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+      }
+
+      .schedule-table {
+        table-layout: auto;
+      }
+
+      .schedule-table th,
+      .schedule-table td {
+        padding: 12px 12px;
+        font-size: 0.9rem;
+      }
+
+      .schedule-table th {
+        font-size: 0.95rem;
+      }
+
+      .merged-date-cell {
+        line-height: 1.7;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="schedule-container">
+    
+    <!-- Centered Header -->
+    <header class="schedule-header">
+      <h1>BSOAOUMN 2-B Class Schedule</h1>
+      <h2>Bachelor of Science in Office Administration</h2>
+      <h2>1st Semester, A. Y. 2026-2027</h2>
+    </header>
+
+    <!-- CYCLE 1 TABLE (4 Subjects) -->
+    <section class="cycle-section">
+      <h3 class="cycle-title">CYCLE 1</h3>
+      <div class="table-wrapper">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Subject Code</th>
+              <th>Subject</th>
+              <th>Time</th>
+              <th>Synchronous Classes</th>
+              <th>Course Specialist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="code-cell">GEED 033</td>
+              <td class="subject-cell">The Contemporary World/Ang Kasalukuyang Daigdig</td>
+              <td class="time-cell">12:00 PM - 01:30 PM</td>
+              <!-- Merged Dates Column across 4 rows -->
+              <td rowspan="4" class="merged-date-cell">
+                September 10<br>
+                September 24<br>
+                October 8<br>
+                October 29<br>
+                November 19<br>
+                December 10
+              </td>
+              <td class="specialist-cell">Ms. Soleil Samson</td>
+            </tr>
+            <tr>
+              <td class="code-cell">GEED 033</td>
+              <td class="subject-cell">Ang Pagsasalin sa Kontekstong Filipino</td>
+              <td class="time-cell">04:30 PM - 06:00 PM</td>
+              <td class="specialist-cell">Mr. Paul Anthony Bacon</td>
+            </tr>
+            <tr>
+              <td class="code-cell">Eng017</td>
+              <td class="subject-cell">Business Report Writing</td>
+              <td class="time-cell">06:00 PM - 07:30 PM</td>
+              <td class="specialist-cell">Ms. Cherry Mingoa</td>
+            </tr>
+            <tr>
+              <td class="code-cell">OFAD 202</td>
+              <td class="subject-cell">Web Design for Business</td>
+              <td class="time-cell">07:30 PM - 09:00 PM</td>
+              <td class="specialist-cell">Mr. Rogelio Sioco Jr.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CYCLE 2 TABLE (3 Subjects) -->
+    <section class="cycle-section">
+      <h3 class="cycle-title">CYCLE 2</h3>
+      <div class="table-wrapper">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Subject Code</th>
+              <th>Subject</th>
+              <th>Time</th>
+              <th>Synchronous Classes</th>
+              <th>Course Specialist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="code-cell">OFAD 201</td>
+              <td class="subject-cell">Personal and Professional Development</td>
+              <td class="time-cell">07:30 AM - 09:00 AM</td>
+              <!-- Merged Dates Column across 3 rows -->
+              <td rowspan="3" class="merged-date-cell">
+                September 3<br>
+                September 17<br>
+                October 15<br>
+                November 5<br>
+                November 25<br>
+                December 17
+              </td>
+              <td class="specialist-cell">Ms. Elizabeth Fernando</td>
+            </tr>
+            <tr>
+              <td class="code-cell">PATHFIT 3</td>
+              <td class="subject-cell">Physical Activity Towards Health and Fitness 3 </td>
+              <td class="time-cell">12:00 PM - 01:30 PM</td>
+              <td class="specialist-cell">Mr. Mark Rodel Villarba</td>
+            </tr>
+            <tr>
+              <td class="code-cell">OFAD 203</td>
+              <td class="subject-cell">Transcription and Speedbuilding with Lab</td>
+              <td class="time-cell">03:00 PM - 04:30 PM</td>
+              <td class="specialist-cell">Mr. John Llyod Aben</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
